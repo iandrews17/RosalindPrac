@@ -1,12 +1,12 @@
 
-def rabbit_fib(n, k):
-    if n <= 0:
-        return 0
-    if n == 2:
-        return 1 + k
-    if n == 1:
-        return 1
-    return (rabbit_fib(n - 1, k) + rabbit_fib(n - 2, k)) * k
+# def rabbit_fib(n, k):
+#     if n <= 0:
+#         return 0
+#     if n == 2:
+#         return 1 + k
+#     if n == 1:
+#         return 1
+#     return (rabbit_fib(n - 1, k) + rabbit_fib(n - 2, k)) * k
 
 
 def fib(n):

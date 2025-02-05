@@ -1,2 +1,4 @@
 # ignore ALL .pyc 
 *.pyc
+# ignore ALL .idea files
+*.idea
